@@ -20,7 +20,7 @@ public class FtoCService {
 	public Response convertFtoC() throws JSONException {
 
 		JSONObject jsonObject = new JSONObject();
-		Double fahrenheit = 98.24;
+		Double fahrenheit = 98.24; 
 		Double celsius;
 		celsius = (fahrenheit - 32)*5/9; 
 		jsonObject.put("F Value", fahrenheit); 
